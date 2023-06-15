@@ -3,9 +3,7 @@
 using namespace std;
 
 
-Boxeur::Boxeur(const string& nom, double poids) : nom(nom), poids(poids) {
-    cout << "Constructeur appelé. Nom : " << nom << ", Poids : " << poids << endl;
-}
+Boxeur::Boxeur(const string& nom, double poids) : nom(nom), poids(poids) {}
 
 const string& Boxeur::getNom() const {
     return nom;

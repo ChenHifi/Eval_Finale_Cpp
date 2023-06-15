@@ -4,14 +4,14 @@ using namespace std;
 
 class Boxeur {
 private:
-    string name;
-    double weight;
+    string nom;
+    double poids;
 
 public:
-    Boxeur(const string& name, double weight);
+    Boxeur(const string& nom, double poids);
 
-    const string& getName() const;
-    double getWeight() const;
-    void setWeight(double newWeight);
+    const string& getNom() const;
+    double getPoids() const;
+    void setPoids(double Npoids);
 };
 
